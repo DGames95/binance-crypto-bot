@@ -77,10 +77,5 @@ else:
 # orders = client.get_open_orders(symbol='BNBBTC')
 
 # TODO: create a way to run main every hour (probably on raspberry pi in future)
-# running = True
-# # create a loop that will run every hour
-# while running:
-#     schedule.run_pending(print('test'))
-#     time.sleep(1)
 
 
