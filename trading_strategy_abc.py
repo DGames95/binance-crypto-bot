@@ -1,4 +1,5 @@
-from abc import ABC, abstractmethod, dataclass
+from abc import ABC, abstractmethod
+from dataclasses import dataclass
 
 
 class DataStream():
