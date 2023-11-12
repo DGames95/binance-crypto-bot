@@ -1,8 +1,8 @@
 from binance.client import Client
 from constants import API_KEY, API_SECRET
-from action_functions import test_trade, execute_sell, execute_buy
-from dataframe_functions import get_df
-from model import predict, prep_data_model, train_model
+from modules.action_functions import test_trade, execute_sell, execute_buy
+from modules.dataframe_functions import get_df
+from modules.model import predict, prep_data_model, train_model
 
 
 # code outline:
