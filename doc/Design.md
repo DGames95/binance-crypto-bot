@@ -38,3 +38,30 @@ Nice To Haves
 - combining multiple models for different situations, e.g. arbitrage and main trading model, short and long term strategy
 - bullish/bearish meter that tones up or down aggressiveness in all models
 
+
+### brainstorming
+
+imagine I am data scientist, I want to quickly moc up a trading bot and get to work on my model, I want a clear interface my model needs to use.
+
+
+if it were a company doing everything manually
+
+an account manager needs to gather data on different trends, they should hook into multiple sources of information, i.e. models. 
+
+there might be an indepent risk evaluation
+
+so there are 2 jobs: 1 predict the prices of an asset in isolation, decide which asset to buy, you dont just go all in on the one that looks the best right now
+
+
+simple use lstm on one crypto:
+
+I make a bot
+
+lstm indicator + risk manager
+
+asset_manager gets a certain amount of money, then takes the input of 
+
+the bot total assets must combine all managers
+
+Manager state machine:
+

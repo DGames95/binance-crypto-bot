@@ -52,13 +52,10 @@ class Strategy():
 
 @dataclass
 class Asset():
+    # enum?
     # required attributes
     name: str
     token: str  # what if token is different per exchange?
-    
-    @abstractmethod
-    def convert():
-        pass   
     
     
 class AccountManager(ABC):
