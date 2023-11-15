@@ -1,6 +1,6 @@
 ### 11 Nov 2023
 
-components
+## components
 
 Trading Side
 - storage of secrets for exchanges, provide utility for encryption before entering into db
@@ -38,6 +38,11 @@ Nice To Haves
 - combining multiple models for different situations, e.g. arbitrage and main trading model, short and long term strategy
 - bullish/bearish meter that tones up or down aggressiveness in all models
 
+## Questions
+
+how to handle errors and maintain safety without just stopping the whole bot
+
+logging implementation
 
 ### brainstorming
 
