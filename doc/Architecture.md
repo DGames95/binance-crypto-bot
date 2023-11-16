@@ -9,7 +9,11 @@ so lets start with basic models to make this easier.
 
 what is an event? every time a new data point is added, the panel of indicators update, then the indicators must learn from the previous prediction
 
-the account manager will wait until a certain criteria is met, e.g. more than 75% of indicators are positive/negative. 
+the bot might just wait until a certain criteria is met, e.g. more than 75% of indicators are positive/negative. 
+
+Parts:
+
+Bot: total state of the model
 
 #### account manager states
 
@@ -27,4 +31,11 @@ training
 
 #### bot states
 
-look at it from outside: I have trading bot
+event occurs every hour - price update
+
+bot stores the current total portfolio stored accross all managers
+
+now the bot must look at the indicators and the available trading pairs from the account managers, and decide on opening a trade order with the relevant account manager
+
+the bot can see the prices of many assets and the indicators
+the bot must evaluate the risk of the portfolio
